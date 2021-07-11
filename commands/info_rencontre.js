@@ -21,7 +21,7 @@ class Info_Rencontre {
 
     Info_Rencontre() {
         if(this.message.channel.id !== this.client.user.id) {
-            if(this.message.channel.id === "862784305439834142") { 
+            if(this.message.channel.id === "863761344133857330") { 
 
                 this.message.delete().then().catch(console.error)
                 if(this.args[0] === PREFIX + "inforencontre") {

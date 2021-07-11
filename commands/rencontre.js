@@ -25,7 +25,7 @@ class Rencontre {
 
     rencontre() {
         if(this.message.author.id !== this.client.user.id) {
-            if(this.message.channel.id === "862784305439834142") {
+            if(this.message.channel.id === "863761344133857330") {
 
                 this.message.delete().then().catch(console.error)
                 if(this.args[0] === PREFIX + "rencontre") {
@@ -228,9 +228,9 @@ class Rencontre {
                                             }).then(async collected => {
                                                 switch (collected.first().emoji.name) {
                                                     case "✅":
-                                                        let guild = this.client.guilds.cache.some(fn => fn.id === "862781120540835901") ? this.client.guilds.cache.get("862781120540835901") : null;
+                                                        let guild = this.client.guilds.cache.some(fn => fn.id === "834348938584522782") ? this.client.guilds.cache.get("834348938584522782") : null;
                                                         if(guild !== null) {
-                                                            let channel = guild.channels.cache.some(fn => fn.id === "862836441600360478") ? guild.channels.cache.get("862836441600360478") : null;
+                                                            let channel = guild.channels.cache.some(fn => fn.id === "863761452980240384") ? guild.channels.cache.get("863761452980240384") : null;
                                                             if(channel !== null) {
                                                                 channel.send(
                                                                     new MessageEmbed()
@@ -296,9 +296,9 @@ class Rencontre {
                                             }).then(async collected2 => {
                                                 switch (collected2.first().emoji.name) {
                                                     case "✅":
-                                                        let guild = this.client.guilds.cache.some(fn => fn.id === "862781120540835901") ? this.client.guilds.cache.get("862781120540835901") : null;
+                                                        let guild = this.client.guilds.cache.some(fn => fn.id === "834348938584522782") ? this.client.guilds.cache.get("834348938584522782") : null;
                                                         if(guild !== null) {
-                                                            let channel = guild.channels.cache.some(fn => fn.id === "862836441600360478") ? guild.channels.cache.get("862836441600360478") : null;
+                                                            let channel = guild.channels.cache.some(fn => fn.id === "863761452980240384") ? guild.channels.cache.get("863761452980240384") : null;
                                                             if(channel !== null) {
                                                                 channel.send(
                                                                     new MessageEmbed()
@@ -364,9 +364,9 @@ class Rencontre {
                                             }).then(async collected3 => {
                                                 switch (collected3.first().emoji.name) {
                                                     case "✅":
-                                                        let guild = this.client.guilds.cache.some(fn => fn.id === "862781120540835901") ? this.client.guilds.cache.get("862781120540835901") : null;
+                                                        let guild = this.client.guilds.cache.some(fn => fn.id === "834348938584522782") ? this.client.guilds.cache.get("834348938584522782") : null;
                                                         if(guild !== null) {
-                                                            let channel = guild.channels.cache.some(fn => fn.id === "862836441600360478") ? guild.channels.cache.get("862836441600360478") : null;
+                                                            let channel = guild.channels.cache.some(fn => fn.id === "863761452980240384") ? guild.channels.cache.get("863761452980240384") : null;
                                                             if(channel !== null) {
                                                                 channel.send(
                                                                     new MessageEmbed()
@@ -432,9 +432,9 @@ class Rencontre {
                                             }).then(async collected4 => {
                                                 switch (collected4.first().emoji.name) {
                                                     case "✅":
-                                                        let guild = this.client.guilds.cache.some(fn => fn.id === "862781120540835901") ? this.client.guilds.cache.get("862781120540835901") : null;
+                                                        let guild = this.client.guilds.cache.some(fn => fn.id === "834348938584522782") ? this.client.guilds.cache.get("834348938584522782") : null;
                                                         if(guild !== null) {
-                                                            let channel = guild.channels.cache.some(fn => fn.id === "862836441600360478") ? guild.channels.cache.get("862836441600360478") : null;
+                                                            let channel = guild.channels.cache.some(fn => fn.id === "863761452980240384") ? guild.channels.cache.get("863761452980240384") : null;
                                                             if(channel !== null) {
                                                                 channel.send(
                                                                     new MessageEmbed()
