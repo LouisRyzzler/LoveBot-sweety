@@ -85,7 +85,17 @@ class Avis {
                                             .setThumbnail('attachment://0.png')
                                             .setTimestamp()
 
-                                    );
+                                    ).then(async (message) => {
+                                        await message.react('❤️').then().catch(console.error);
+
+                                        const filter = (reaction, user) => reaction.emoji.name === "❤️" &&
+                                            user.id === this.message.author.id;
+
+                                        await message.awaitReactions(filter, {
+                                            max: 1,
+                                            errors: ["max"]
+                                        })
+                                    })    
                                     break       
                                 case  "1️⃣":
                                     this.message.channel.send(
@@ -96,7 +106,17 @@ class Avis {
                                             .attachFiles(unImg)
                                             .setThumbnail('attachment://1.png')
                                             .setTimestamp()
-                                    );
+                                    ).then(async (message) => {
+                                        await message.react('❤️').then().catch(console.error);
+
+                                        const filter = (reaction, user) => reaction.emoji.name === "❤️" &&
+                                            user.id === this.message.author.id;
+
+                                        await message.awaitReactions(filter, {
+                                            max: 1,
+                                            errors: ["max"]
+                                        })
+                                    })    
                                     break       
                                 case  "2️⃣":
                                     this.message.channel.send(
@@ -107,7 +127,17 @@ class Avis {
                                             .attachFiles(deuxImg)
                                             .setThumbnail('attachment://2.png')    
                                             .setTimestamp()
-                                    );
+                                    ).then(async (message) => {
+                                        await message.react('❤️').then().catch(console.error);
+
+                                        const filter = (reaction, user) => reaction.emoji.name === "❤️" &&
+                                            user.id === this.message.author.id;
+
+                                        await message.awaitReactions(filter, {
+                                            max: 1,
+                                            errors: ["max"]
+                                        })
+                                    })    
                                     break       
                                 case  "3️⃣":
                                     this.message.channel.send(
@@ -118,7 +148,17 @@ class Avis {
                                             .attachFiles(troisImg)
                                             .setThumbnail('attachment://3.png')   
                                             .setTimestamp()
-                                    );  
+                                    ).then(async (message) => {
+                                        await message.react('❤️').then().catch(console.error);
+
+                                        const filter = (reaction, user) => reaction.emoji.name === "❤️" &&
+                                            user.id === this.message.author.id;
+
+                                        await message.awaitReactions(filter, {
+                                            max: 1,
+                                            errors: ["max"]
+                                        })
+                                    })      
                                     break                  
                                 case  "4️⃣":
                                     this.message.channel.send(
@@ -129,7 +169,17 @@ class Avis {
                                             .attachFiles(quatreImg)
                                             .setThumbnail('attachment://4.png')   
                                             .setTimestamp()
-                                    );  
+                                    ).then(async (message) => {
+                                        await message.react('❤️').then().catch(console.error);
+
+                                        const filter = (reaction, user) => reaction.emoji.name === "❤️" &&
+                                            user.id === this.message.author.id;
+
+                                        await message.awaitReactions(filter, {
+                                            max: 1,
+                                            errors: ["max"]
+                                        })
+                                    })      
                                     break                      
                                 case  "5️⃣":
                                     this.message.channel.send(
@@ -140,7 +190,17 @@ class Avis {
                                             .attachFiles(cinqImg)
                                             .setThumbnail('attachment://5.png')   
                                             .setTimestamp()
-                                    );                     
+                                    ).then(async (message) => {
+                                        await message.react('❤️').then().catch(console.error);
+
+                                        const filter = (reaction, user) => reaction.emoji.name === "❤️" &&
+                                            user.id === this.message.author.id;
+
+                                        await message.awaitReactions(filter, {
+                                            max: 1,
+                                            errors: ["max"]
+                                        })
+                                    })                      
                         }
                         })
 
