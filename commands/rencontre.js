@@ -236,7 +236,7 @@ class Rencontre {
                                                                     new MessageEmbed()
                                                                     .setColor("#ff9e80")
                                                                     .setAuthor(this.message.author.username, this.message.author.avatarURL())
-                                                                    .setDescription(`s${(reply1.first().content)} \n${(reply2.first().content)} \n${(reply3.first().content)} \n${(reply4.first().content)} \n${(reply5.first().content)} \n${(reply6.first().content)} \n${(reply7.first().content)}` + `\n\n Auteur: ${this.message.author}`)
+                                                                    .setDescription(`**Nom/Prénom/Âge** \n${(reply1.first().content)} \n─────────────────────── \n${(reply2.first().content)} \n${(reply3.first().content)} \n${(reply4.first().content)} \n${(reply5.first().content)} \n${(reply6.first().content)} \n${(reply7.first().content)}` + `\n\n Auteur: ${this.message.author}`)
                                                                     .attachFiles(pecheImg)
                                                                     .setThumbnail('attachment://84451.png')
                                                                     .setImage(reponse.first().attachments.array()[0].proxyURL)
