@@ -29,7 +29,7 @@ class Info_Rencontre {
                         new MessageEmbed()
                             .setColor("#f16179")
                             .setTitle("Comment ajouter votre profil ?")
-                            .setDescription("Tapez `.rencontre` et cochez la réaction `✅` pour accéder à tout le serveur et poster ton profil. \n\nJe vous enverrai des instructions en message privé, suivez les attentivement.")
+                            .setDescription("Tapez `.rencontre` pour poster ton profil. \n\nJe vous enverrai des instructions en message privé, suivez les attentivement.")
                             .attachFiles(coeurImg)
                             .setThumbnail('attachment://coeur.png')
 
